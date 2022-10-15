@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.placeholder {
+    padding-top: 23px;
+    padding: 13px;
+    font-family: 'Happy Monkey';
+    font-size: 14px;
+    border: 0px;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+input:focus::placeholder {
+    color: white;
+    transition: 0.5s ease;
+}
+
+.placeholder:focus {
+    outline: none;
+    border: 0px;
+    border-bottom: 2px solid #5FC3CA;
+}
+
+textarea:focus::placeholder {
+    color: white;
+    transition: 0.5s ease;
+}
+
+::placeholder {
+    /* WebKit browsers */
+    transition: 0.5s ease;
+    ;
+    color: #C0C0C0;
+}
+
+.contactform {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    border-radius: 20px
+    
+}
+
+#img-contact {
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+}
+
+.contact-info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: left;
+
+}
+
+#helpdesk {
+    color: #5FC3CA;
+}
+
+h2 {
+    padding-top: 97px;
+    font-family: 'Happy Monkey';
+    font-weight: 400;
+    font-size: 64px;
+    color: #000000;
+}
+
+p {
+    padding-top: 25px;
+    font-family: 'Happy Monkey';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#label-name {
+    margin-top: 69px;
+    Width: 427px;
+    Height: 48px;
+}
+
+#label-email {
+    margin-top: 40px;
+    Width: 427px;
+    Height: 48px;
+}
+
+#text-area {
+    margin-top: 40px;
+    Width: 427px;
+    Height: 217px;
+}
+
+#submit {
+    border: 0px;
+    margin: 0 auto;
+    margin-top: 109px;
+    text-align: center;
+    display: block;
+    width: 231px;
+    height: 48px;
+    left: 310px;
+    top: 829px;
+
+    background: #5FC3CA;
+    border-radius: 10px;
+
+    font-family: 'Happy Monkey';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+body {
+    background: conic-gradient(from -1.64deg at 52.89% 52.66%, #9FE6EA -34.2deg, #A5E3E7 85.25deg, #F0DAC2 153.64deg, #F7E3CD 280.49deg, #9FE6EA 325.8deg, #A5E3E7 445.25deg);
+}
